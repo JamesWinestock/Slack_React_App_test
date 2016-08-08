@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Boilerplate for production React & Redux App",
   "main": "index.js",
+  "engines":{
+    "node":"6.2.2"
+  },
   "scripts": {
     "start": "webpack-dev-server",
     "production": "webpack -p",
@@ -40,4 +43,5 @@
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
+
 }
